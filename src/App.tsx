@@ -31,7 +31,10 @@ export default function App() {
     investorType: 'Individual Investor'
   });
 
-  const API_URL = 'https://sheetdb.io/api/v1/my8x2znu93vw0';
+  // IMPORTANT: Update this URL with your new SheetDB API ID for the new Google Sheet
+  // Create a new API at https://sheetdb.io using your new Google Sheet URL:
+  // https://docs.google.com/spreadsheets/d/1k21gwbdvLg3oLKMyuDrML88ZRaBGPlAgRD50KXGGGo0/edit
+  const API_URL = 'https://sheetdb.io/api/v1/yxvngakilvj0b';
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -113,7 +116,9 @@ export default function App() {
                 Apply for Investors Beta
               </button>
               <a 
-                href="#investment"
+                href="/2025%2002%20FAA%20VIG%20Shared%20Screens%20Slideshow.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto text-slate-300 hover:text-white font-semibold py-5 px-12 rounded-full border border-white/10 hover:bg-white/5 transition-all"
               >
                 Learn More
